@@ -1,0 +1,37 @@
+# Large derived embeddings -- regenerate with python/bert_cls_embeddings.py
+data/interim/cls_embeddings_corpus86k.csv
+data/interim/tfidf_matches_all.csv
+data/interim/tfidf_candidates_for_review.csv
+
+# Large publication rasters (PNG equivalents are committed)
+*.tiff
+*.tif
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rscript default device output
+Rplots.pdf
+
+# Script-regenerated outputs (published versions live in data/curated and figures/published)
+data/interim/hdbscan_clusters.csv
+data/interim/seed_categories.csv
+figures/fig3_panel_b_only.png
+
+# knitr artefacts
+methods_walkthrough.html
+methods_walkthrough_files/
+figure/

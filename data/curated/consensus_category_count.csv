@@ -1,0 +1,20 @@
+Category,Count,Group
+Sleep Difficulty,135,Generic
+Sleep Latency and Waking,70,Generic
+Sleep Duration,36,Generic
+Mental Health and Sleep,22,Generic
+Dreams,17,Generic
+Sleep Disorders,39,Generic
+Daytime Sleepiness,43,Generic
+Sleep Quality,32,Generic
+Sleep Medications and Aids,19,Generic
+Sleep Environment,17,Generic
+Physical Health and Sleep,11,Generic
+Uncategorized,30,Generic
+Alcohol Related,3,Generic
+Sleep Onset,6,Generic
+NPI,6,Specific
+Epworth Sleepiness Scale,2,Specific
+CESD,16,Specific
+GHQ,16,Specific
+PSQI,8,Specific

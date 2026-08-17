@@ -1,0 +1,9 @@
+# Python dependencies for the embedding and categorisation steps.
+# Versions pinned to those reported in the paper's Software & Packages section.
+transformers==4.44.0
+torch>=2.0
+pandas>=2.0
+numpy>=1.24
+
+# Only needed by analysis/01_tfidf_umls_match.R, via reticulate.
+polyfuzz>=0.4.2

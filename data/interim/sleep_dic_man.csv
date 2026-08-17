@@ -1,0 +1,755 @@
+From,To,Similarity,X.y,fdd_var,cohort
+sleep,Sleep,1,84288,sleepu1_v2,mrc
+s. has difficulty in sleeping?,Difficulty sleeping,0.96,13921,v64_h2,cfas
+s. has difficulty in sleeping?,Difficulty sleeping,0.96,16457,v64_h0,cfas
+s. has difficulty in sleeping?,Difficulty sleeping,0.96,16752,v64_h1,cfas
+s. has difficulty in sleeping?,Difficulty sleeping,0.96,18099,v64_h3,cfas
+trouble sleeping?,Trouble sleeping in past 4W,0.957,9696,v84_a0,cfas
+trouble sleeping?,Trouble sleeping in past 4W,0.957,10130,v84_a2,cfas
+my sleep was restless,Sleep is Restless,0.954,84479,CESDQ11,nicola
+sleep: rating sleep quality overall,Overall Sleep Quality Rating,0.953,66009,heslpf,elsa
+ sleep: rating sleep quality overall,Overall Sleep Quality Rating,0.953,72708,heslpf,elsa
+sleep disorders - insomnia,sleep disorder; insomnia type,0.938,883,SD_Insomnia,ample
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,10599,v113_c12,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,11185,v113_c14,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,11769,v113_c16,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,12361,v113_c2,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,12867,v113_c6,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,13406,v113_c8,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,14640,v113_cx,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,15503,v113_f1,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,15997,v113_f3,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,20188,v113_s6,cfas
+any trouble sleeping?,Trouble sleeping in past 4W,0.928,20780,v113_w8,cfas
+difficulty with sleeping now?,Difficulty sleeping,0.907,13963,v103_h2,cfas
+difficulty with sleeping now?,Difficulty sleeping,0.907,16499,v103_h0,cfas
+difficulty with sleeping now?,Difficulty sleeping,0.907,16794,v103_h1,cfas
+difficulty with sleeping now?,Difficulty sleeping,0.907,18141,v103_h3,cfas
+difficulty in sleeping in last 30 days,Difficulty sleeping,0.904,63458,shwake1,elsa
+difficulty in sleeping in last 30 days,Difficulty sleeping,0.904,63483,swwake1,elsa
+onset. difficulty sleeping?,Difficulty sleeping,0.899,13962,v102_h2,cfas
+onset. difficulty sleeping?,Difficulty sleeping,0.899,16498,v102_h0,cfas
+onset. difficulty sleeping?,Difficulty sleeping,0.899,16793,v102_h1,cfas
+onset. difficulty sleeping?,Difficulty sleeping,0.899,18140,v102_h3,cfas
+pittsburgh sleep quality index (psqi): total score,Pittsburgh Sleep Quality Index score,0.887,84267,psqi14x,mrc
+difficulty in getting to sleep,"In the past Y, have you had difficulty getting to sleep",0.886,35901,v88_h1,cfasii
+difficulty in getting to sleep,"In the past Y, have you had difficulty getting to sleep",0.886,36234,v88_h2,cfasii
+trouble falling or staying asleep,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.88,84441,Q83m,nicola
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,14126,v231_h2,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,14481,v231_h6,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,16654,v231_h0,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,16949,v231_h1,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17306,v231_h12,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17641,v231_h14,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17976,v231_h16,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18296,v231_h3,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18644,v231_h6,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18975,v231_h8,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,19312,v231_hx,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,36123,v310_h1,cfasii
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,36456,v310_h2,cfasii
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,14126,v231_h2,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,14481,v231_h6,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,16654,v231_h0,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,16949,v231_h1,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17306,v231_h12,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17641,v231_h14,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,17976,v231_h16,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18296,v231_h3,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18644,v231_h6,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,18975,v231_h8,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,19312,v231_hx,cfas
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,36123,v310_h1,cfasii
+take alcohol to sleep?,ALCOHOL USE FOR SLEEP,0.87,36456,v310_h2,cfasii
+disturbed sleep,Stress disturbed my sleep in past 7D,0.868,86510,Disturbed sleep,nimrod
+excessive daytime sleepiness ever,Excessive daytime sleepiness - normal night sleep,0.863,877,Ex_Sleep_Ever,ample
+[c5 ca personality] sleep pattern disturbance ,Sleep pattern disturbance,0.859,9507,T0552 C5 CA Investigations IQcode IR,caps
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,14267,v64_h6,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17091,v64_h12,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17426,v64_h14,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17761,v64_h16,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,18437,v64_h6,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,18761,v64_h8,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,19097,v64_hx,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,14267,v64_h6,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17091,v64_h12,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17426,v64_h14,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,17761,v64_h16,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,18437,v64_h6,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,18761,v64_h8,cfas
+s has difficulty getting to sleep?,"In the past Y, have you had difficulty getting to sleep",0.855,19097,v64_hx,cfas
+"during the past month, how often have you had trouble sleeping because you:- had bad dreams",I had trouble sleeping because of bad dreams in the past 7D,0.841,1642,SP12,camcan
+day sleep,Sleep,0.839,86511,Day sleep,nimrod
+sleep disorders - excessive daytime sleepiness,Excessive daytime sleepiness - normal night sleep,0.829,875,SD_Ex_Sleep,ample
+have you had any trouble sleeping recently?,I have no trouble sleeping.,0.821,36695,v201_w1,cfasii
+have you had any trouble sleeping recently?,I have no trouble sleeping.,0.821,37401,v184_w2,cfasii
+o-restless,Sleep is Restless,0.82,9896,v269_a0,cfas
+o-restless,Sleep is Restless,0.82,10329,v269_a2,cfas
+over past 2 weeks has been bothered by trouble falling or staying asleep - too much sleep,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.8,72,F_734,airwave
+"during the past month, how often have you had trouble sleeping because you:- cannot breathe comfortably","Trouble Sleeping, Cannot Breathe Comfortably",0.79,1638,SP8,camcan
+psqi: sleep efficiency,Sleep Efficiency,0.79,84270,psqihse14x,mrc
+sleep interrupted?,Sleep-interrupting,0.787,9701,v89_a0,cfas
+sleep interrupted?,Sleep-interrupting,0.787,10135,v89_a2,cfas
+sleep interrupted?,Sleep-interrupting,0.787,10603,v118_c12,cfas
+sleep interrupted?,Sleep-interrupting,0.787,11189,v118_c14,cfas
+sleep interrupted?,Sleep-interrupting,0.787,11773,v118_c16,cfas
+sleep interrupted?,Sleep-interrupting,0.787,12366,v118_c2,cfas
+sleep interrupted?,Sleep-interrupting,0.787,12872,v118_c6,cfas
+sleep interrupted?,Sleep-interrupting,0.787,13411,v118_c8,cfas
+sleep interrupted?,Sleep-interrupting,0.787,14645,v118_cx,cfas
+sleep interrupted?,Sleep-interrupting,0.787,15508,v118_f1,cfas
+sleep interrupted?,Sleep-interrupting,0.787,16002,v118_f3,cfas
+sleep interrupted?,Sleep-interrupting,0.787,20193,v118_s6,cfas
+sleep interrupted?,Sleep-interrupting,0.787,20784,v118_w8,cfas
+type of sleep problem?,Problem with Sleep,0.785,19491,v118_s0,cfas
+type of sleep problem?,Problem with Sleep,0.785,21416,v118_y0,cfas
+duration of excessive daytime sleepiness in months,Excessive daytime sleepiness - normal night sleep,0.782,876,Ex_Sleep_Duration,ample
+"during the past month, how often have you had trouble sleeping because you:- cannot get to sleep within 30 minutes","Trouble Sleeping, Cannot Get to Sleep Within 30 Minutes",0.781,1635,SP5,camcan
+"during the past month, how often have you had trouble sleeping because you:- cough or snore loudly","Trouble Sleeping, Cough or Snoring Loudly",0.775,1639,SP9,camcan
+"during the past month, how often have you had trouble sleeping because you:- wake up in the middle of the night or early morning","Trouble Sleeping, Waking Up in the Middle of the Night or Early Morning",0.773,1636,SP6,camcan
+over the last year have you had trouble getting off to sleep?,Have a Lot of Trouble Getting to Sleep,0.77,84274,pssle89,mrc
+"[c3 sleep disturbance q1] today, do you feel? ",Sleep disturbances,0.769,3348,c3todaydoyoufeel,caps
+"[c3 sleep disturbance q1] today, do you feel? ",Sleep disturbances,0.769,7175,T0481 C3 General health and sleep disturbance quests,caps
+insomnia ever,Initial insomnia,0.767,885,Insomnia_Ever,ample
+sleep disorders - cried out during sleep,Sleep Disorders,0.765,871,SD_Cried_Out,ample
+sleep: no. days trouble staying asleep in last month,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.765,72705,heslpc,elsa
+sleep: no days trouble staying asleep in last month,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.765,77441,heslpc,elsa
+"in the last 12 months, how often has wheezing disturbed sleep","In the last 12Mo, how often, on average, has your sleep been disturbed due to wheezing",0.764,46953,sletw,elsa
+trouble getting off to sleep in past month,Have a Lot of Trouble Getting to Sleep,0.763,84266,pse3582,mrc
+trouble with sleep,Trouble sleeping in past 4W,0.763,84282,slcna,mrc
+trouble with sleep,Trouble sleeping in past 4W,0.763,84286,sleep77,mrc
+trouble with sleep,Trouble sleeping in past 4W,0.763,84287,sleept1_v2,mrc
+psqi: sleep disturbance,Sleep disturbances,0.762,84268,psqidistb14x,mrc
+s restless at night?,Sleep is Restless,0.76,14269,v66_h6,cfas
+s restless at night?,Sleep is Restless,0.76,17093,v66_h12,cfas
+s restless at night?,Sleep is Restless,0.76,17428,v66_h14,cfas
+s restless at night?,Sleep is Restless,0.76,17763,v66_h16,cfas
+s restless at night?,Sleep is Restless,0.76,18439,v66_h6,cfas
+s restless at night?,Sleep is Restless,0.76,18763,v66_h8,cfas
+s restless at night?,Sleep is Restless,0.76,19099,v66_hx,cfas
+s restless at night?,Sleep is Restless,0.76,35902,v89_h1,cfasii
+s restless at night?,Sleep is Restless,0.76,36235,v89_h2,cfasii
+s restless at night?,Sleep is Restless,0.76,14269,v66_h6,cfas
+s restless at night?,Sleep is Restless,0.76,17093,v66_h12,cfas
+s restless at night?,Sleep is Restless,0.76,17428,v66_h14,cfas
+s restless at night?,Sleep is Restless,0.76,17763,v66_h16,cfas
+s restless at night?,Sleep is Restless,0.76,18439,v66_h6,cfas
+s restless at night?,Sleep is Restless,0.76,18763,v66_h8,cfas
+s restless at night?,Sleep is Restless,0.76,19099,v66_hx,cfas
+s restless at night?,Sleep is Restless,0.76,35902,v89_h1,cfasii
+s restless at night?,Sleep is Restless,0.76,36235,v89_h2,cfasii
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,14310,v102_h6,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17134,v102_h12,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17469,v102_h14,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17804,v102_h16,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,18477,v102_h6,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,18804,v102_h8,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,19140,v102_hx,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,35945,v132_h1,cfasii
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,36278,v132_h2,cfasii
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,14310,v102_h6,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17134,v102_h12,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17469,v102_h14,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,17804,v102_h16,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,18477,v102_h6,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,18804,v102_h8,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,19140,v102_hx,cfas
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,35945,v132_h1,cfasii
+s difficulty sleeping at beginning?,Difficulty sleeping,0.754,36278,v132_h2,cfasii
+[c3 sleep disturbance] the card number in this case 9,Sleep disturbances,0.747,7129,T0481 C3 General health and sleep disturbance quests,caps
+q17k difficulty sleeping last 14 days? (s2),Difficulty sleeping,0.742,85000,ZSYMP11,whitehall
+had difficulty in staying asleep once you are off?,Have Difficulty Getting to Sleep and Staying Asleep,0.741,83656,b2,genscot
+q19k difficulty sleeping in last 14 days (s1),Difficulty sleeping,0.74,84991,SYMP11,whitehall
+cried out during sleep?,During sleep,0.737,739,QSSLBD_Sleep,ample
+q15k difficulty sleeping in last 14 dys? (s3),Difficulty sleeping,0.736,85046,XSYMP11,whitehall
+q74k difficulty sleeping in last 2 wks (s7),Difficulty sleeping,0.733,85356,MSYMP11,whitehall
+[c3 sleep disturbance q16] do you take sleeping tables? ,Sleep disturbances,0.729,3372,c3sleeptablets,caps
+[c3 sleep disturbance q16] do you take sleeping tables? ,Sleep disturbances,0.729,7166,T0481 C3 General health and sleep disturbance quests,caps
+age at onset of sleep problem?,Problem with Sleep,0.72,19492,v119_s0,cfas
+age at onset of sleep problem?,Problem with Sleep,0.72,21417,v119_y0,cfas
+"during the past month, how often have you had trouble sleeping because you:- have pain",Trouble Sleeping Because of Pain,0.716,1643,SP13,camcan
+o-rate insomnia,Initial insomnia,0.712,9699,v87_a0,cfas
+o-rate insomnia,Initial insomnia,0.712,10133,v87_a2,cfas
+problems sleeping?,Problem with Sleep,0.712,19490,v117_s0,cfas
+problems sleeping?,Problem with Sleep,0.712,21415,v117_y0,cfas
+"during the past month, how often have you had trouble sleeping because you:- have to get up to use the bathroom","Trouble Sleeping, Get Up to Use the Bathroom",0.708,1637,SP7,camcan
+sleeping a problem now?,Problem with Sleep,0.708,14311,v103_h6,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17135,v103_h12,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17470,v103_h14,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17805,v103_h16,cfas
+sleeping a problem now?,Problem with Sleep,0.708,18478,v103_h6,cfas
+sleeping a problem now?,Problem with Sleep,0.708,18805,v103_h8,cfas
+sleeping a problem now?,Problem with Sleep,0.708,19141,v103_hx,cfas
+sleeping a problem now?,Problem with Sleep,0.708,35946,v133_h1,cfasii
+sleeping a problem now?,Problem with Sleep,0.708,36279,v133_h2,cfasii
+sleeping a problem now?,Problem with Sleep,0.708,14311,v103_h6,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17135,v103_h12,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17470,v103_h14,cfas
+sleeping a problem now?,Problem with Sleep,0.708,17805,v103_h16,cfas
+sleeping a problem now?,Problem with Sleep,0.708,18478,v103_h6,cfas
+sleeping a problem now?,Problem with Sleep,0.708,18805,v103_h8,cfas
+sleeping a problem now?,Problem with Sleep,0.708,19141,v103_hx,cfas
+sleeping a problem now?,Problem with Sleep,0.708,35946,v133_h1,cfasii
+sleeping a problem now?,Problem with Sleep,0.708,36279,v133_h2,cfasii
+rating: has insomnia,Initial insomnia,0.707,10602,v116_c12,cfas
+rating: has insomnia,Initial insomnia,0.707,11188,v116_c14,cfas
+rating: has insomnia,Initial insomnia,0.707,11772,v116_c16,cfas
+rating: has insomnia,Initial insomnia,0.707,12364,v116_c2,cfas
+rating: has insomnia,Initial insomnia,0.707,12870,v116_c6,cfas
+rating: has insomnia,Initial insomnia,0.707,13409,v116_c8,cfas
+rating: has insomnia,Initial insomnia,0.707,14643,v116_cx,cfas
+rating: has insomnia,Initial insomnia,0.707,15506,v116_f1,cfas
+rating: has insomnia,Initial insomnia,0.707,16000,v116_f3,cfas
+rating: has insomnia,Initial insomnia,0.707,20191,v116_s6,cfas
+rating: has insomnia,Initial insomnia,0.707,20783,v116_w8,cfas
+"during the past month, how many hours of actual sleep did you get at night?",Hours of Actual Sleep at Night,0.707,84259,hrssle14x,mrc
+kind of trouble with sleep,Trouble sleeping in past 4W,0.707,84261,ktwsl62,mrc
+npi sleep,Sleep,0.704,648,npisleep,ample
+sleep disorders - involuntary movements of arms and legs,involuntary movements during sleep,0.703,863,SD_Arm_Leg,ample
+sleep disorders - restless legs syndrome,restless sleep disorder,0.7,887,SD_RLS,ample
+sleep: how often respondent has difficulty falling asleep,How Often Difficulty Sleeping,0.698,66005,heslpa,elsa
+type of trouble with sleep,Trouble sleeping in past 4W,0.693,84284,slcta,mrc
+sleep disorders - acting out dreams,Sleep Disorders,0.691,867,SD_Acting_Dream,ample
+sleep interrupted during the night?,Sleep-interrupting,0.689,36700,v206_w1,cfasii
+sleep interrupted during the night?,Sleep-interrupting,0.689,37406,v189_w2,cfasii
+sleep interrupted during the night?,Sleep-interrupting,0.689,36700,v206_w1,cfasii
+sleep interrupted during the night?,Sleep-interrupting,0.689,37406,v189_w2,cfasii
+sleep disorders - troubled by nightmares,nightmare disorder with associated other sleep disorder,0.688,859,SD_Nightmare,ample
+difficulty falling asleep?,Difficulty sleeping,0.687,9700,v88_a0,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,10134,v88_a2,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,11040,v117_c12,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,11626,v117_c14,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12210,v117_c16,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12365,v117_c2,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12871,v117_c6,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,13410,v117_c8,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,14644,v117_cx,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,15507,v117_f1,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,16001,v117_f3,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,20192,v117_s6,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,21186,v117_w8,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,36699,v205_w1,cfasii
+difficulty falling asleep?,Difficulty sleeping,0.687,37405,v188_w2,cfasii
+difficulty falling asleep?,Difficulty sleeping,0.687,9700,v88_a0,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,10134,v88_a2,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,11040,v117_c12,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,11626,v117_c14,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12210,v117_c16,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12365,v117_c2,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,12871,v117_c6,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,13410,v117_c8,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,14644,v117_cx,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,15507,v117_f1,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,16001,v117_f3,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,20192,v117_s6,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,21186,v117_w8,cfas
+difficulty falling asleep?,Difficulty sleeping,0.687,36699,v205_w1,cfasii
+difficulty falling asleep?,Difficulty sleeping,0.687,37405,v188_w2,cfasii
+psqi: overall sleep quality,Overall Sleep Quality Rating,0.687,84273,psqislpqual14x,mrc
+rate: who answered sleep section?,Sleep Answer,0.686,19494,v120a_s0,cfas
+rate: who answered sleep section?,Sleep Answer,0.686,21419,v120a_y0,cfas
+"during the past month, how often have you had trouble sleeping because you:- feel too cold","Trouble Sleeping, Feel Too Cold",0.683,1640,SP10,camcan
+type of sleeping problem,Problem with Sleep,0.683,19856,v118_s2,cfas
+"during the past month, how often have you had trouble sleeping because you:- feel too hot","Trouble Sleeping, Feel Too Hot",0.681,1641,SP11,camcan
+pittsberg sleep quality index total,Pittsburgh sleep quality index,0.679,84064,PSQI_Global,icicle
+nightmares ever,"Nightmares, REM-sleep type",0.676,861,Night_Ever,ample
+"during the past month, how often have you had trouble sleeping because you:- any other reasons, and if so how often?",Trouble Sleeping Because of Other Reason,0.674,1644,SP14,camcan
+[c3 sleep disturbance] the file number as recorded on card 9,Sleep disturbances,0.673,7131,T0481 C3 General health and sleep disturbance quests,caps
+how long troubled sleep?,Trouble sleeping in past 4W,0.672,9698,v86_a0,cfas
+how long troubled sleep?,Trouble sleeping in past 4W,0.672,10132,v86_a2,cfas
+[c3 sleep disturbance q11b] wake up during the night and have a hard time getting back to sleep? ,"In the past Y, have you awakened during the night and had a hard time getting back to sleep",0.671,3359,c3backtosleepdifficulty,caps
+[c3 sleep disturbance q11b] wake up during the night and have a hard time getting back to sleep? ,"In the past Y, have you awakened during the night and had a hard time getting back to sleep",0.671,7121,T0481 C3 General health and sleep disturbance quests,caps
+[c3 sleep disturbance q2] have you ever been told you snore? ,Sleep disturbances,0.67,3349,c3snoring,caps
+[c3 sleep disturbance q2] have you ever been told you snore? ,Sleep disturbances,0.67,7168,T0481 C3 General health and sleep disturbance quests,caps
+"during the past month, how often have you taken medicine to help you sleep?",Take Medicine to Help Sleep,0.67,84289,slmedi14x,mrc
+psqi: sleep duration,Duration of sleep,0.667,84269,psqidurat14x,mrc
+alice vignette: difficulty in sleeping in last 30 days,Difficulty sleeping,0.664,63469,shwake4,elsa
+duration of cried out during sleep in months,Duration of sleep,0.663,872,Cried_Out_duration,ample
+q79d do you experience sleep disturbance (s7),Sleep disturbances,0.661,85368,MSYMSLP,whitehall
+q73e last mth- disturbed sleep (s8),Stress disturbed my sleep in past 7D,0.659,85504,KSLPDIST,whitehall
+q73e disturbed/restless sleep in last 4 wks (s7),Distressed by Sleep that is Restless and Disturbed,0.657,85359,MSLPDIST,whitehall
+obs - falls asleep,Asleep,0.655,10854,v361_c12,cfas
+obs - falls asleep,Asleep,0.655,11440,v361_c14,cfas
+obs - falls asleep,Asleep,0.655,12024,v361_c16,cfas
+obs - falls asleep,Asleep,0.655,12630,v361_c2,cfas
+obs - falls asleep,Asleep,0.655,13143,v361_c6,cfas
+obs - falls asleep,Asleep,0.655,13697,v361_c8,cfas
+obs - falls asleep,Asleep,0.655,14930,v361_cx,cfas
+obs - falls asleep,Asleep,0.655,15772,v361_f1,cfas
+obs - falls asleep,Asleep,0.655,16266,v361_f3,cfas
+obs - falls asleep,Asleep,0.655,20484,v361_s6,cfas
+obs - falls asleep,Asleep,0.655,21035,v361_w8,cfas
+obs - falls asleep,Asleep,0.655,37132,v638_w1,cfasii
+obs - falls asleep,Asleep,0.655,37828,v611_w2,cfasii
+obs - falls asleep,Asleep,0.655,10854,v361_c12,cfas
+obs - falls asleep,Asleep,0.655,11440,v361_c14,cfas
+obs - falls asleep,Asleep,0.655,12024,v361_c16,cfas
+obs - falls asleep,Asleep,0.655,12630,v361_c2,cfas
+obs - falls asleep,Asleep,0.655,13143,v361_c6,cfas
+obs - falls asleep,Asleep,0.655,13697,v361_c8,cfas
+obs - falls asleep,Asleep,0.655,14930,v361_cx,cfas
+obs - falls asleep,Asleep,0.655,15772,v361_f1,cfas
+obs - falls asleep,Asleep,0.655,16266,v361_f3,cfas
+obs - falls asleep,Asleep,0.655,20484,v361_s6,cfas
+obs - falls asleep,Asleep,0.655,21035,v361_w8,cfas
+obs - falls asleep,Asleep,0.655,37132,v638_w1,cfasii
+obs - falls asleep,Asleep,0.655,37828,v611_w2,cfasii
+[c3 sleep disturbance q11a] difficulty in getting to sleep? ,Sleep disturbances,0.654,3358,c3gettosleepdifficuly,caps
+[c3 sleep disturbance q11a] difficulty in getting to sleep? ,Sleep disturbances,0.654,7147,T0481 C3 General health and sleep disturbance quests,caps
+carol vignette: difficulty in sleeping in last 30 days,Difficulty sleeping,0.654,63465,shwake2,elsa
+q56e last mth- disturbed sleep (s9),Stress disturbed my sleep in past 7D,0.654,85613,JSLPDIST,whitehall
+during the past month how would you rate your sleep quality overall?,Overall Sleep Quality Rating,0.651,1646,SP16,camcan
+no height: child asleep,Asleep,0.651,46870,nohtbc10,elsa
+"during the past month, how would you rate your sleep quality overall?",Overall Sleep Quality Rating,0.651,84290,slqual14x,mrc
+no weight: child asleep,Asleep,0.647,46883,nowtbc11,elsa
+"[c3 sleep disturbance q11d] not feel rested during the day, no matter how many hours of sleep you had? ",Sleep or rest pattern disturbance,0.644,3361,c3notfeelrested,caps
+"[c3 sleep disturbance q11d] not feel rested during the day, no matter how many hours of sleep you had? ",Sleep or rest pattern disturbance,0.644,7159,T0481 C3 General health and sleep disturbance quests,caps
+q73a trouble falling asleep in last 4 wks (s7),"Trouble falling or staying asleep, or sleeping too much in last 2W",0.64,85360,MSLPFALL,whitehall
+whether felt their sleep was restless during past week,My sleep was restless in past 7D,0.639,63276,pscedc,elsa
+whether felt their sleep was restless during past week,My sleep was restless in past 7D,0.639,74936,PScedC,elsa
+"r7sleepr:w7 r cesd: sleep was restless (0,1)",Sleep is Restless,0.633,41603,r7sleepr,elsa
+"s7sleepr:w7 s cesd: sleep was restless (0,1)",Sleep is Restless,0.633,41610,s7sleepr,elsa
+"r1sleepr:w1 r cesd: sleep was restless (0,1)",Restless sleep,0.632,41597,r1sleepr,elsa
+"r2sleepr:w2 r cesd: sleep was restless (0,1)",Restless sleep,0.632,41598,r2sleepr,elsa
+"r3sleepr:w3 r cesd: sleep was restless (0,1)",Sleep is Restless,0.632,41599,r3sleepr,elsa
+"s1sleepr:w1 s cesd: sleep was restless (0,1)",Restless sleep,0.632,41604,s1sleepr,elsa
+"s2sleepr:w2 s cesd: sleep was restless (0,1)",Restless sleep,0.632,41605,s2sleepr,elsa
+"s3sleepr:w3 s cesd: sleep was restless (0,1)",Sleep is Restless,0.632,41606,s3sleepr,elsa
+q73a last mth- trouble falling asleep (s,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.632,85505,KSLPFALL,whitehall
+"r4sleepr:w4 r cesd: sleep was restless (0,1)",Sleep is Restless,0.631,41600,r4sleepr,elsa
+"s4sleepr:w4 s cesd: sleep was restless (0,1)",Sleep is Restless,0.631,41607,s4sleepr,elsa
+"r5sleepr:w5 r cesd: sleep was restless (0,1)",Sleep is Restless,0.629,41601,r5sleepr,elsa
+"s5sleepr:w5 s cesd: sleep was restless (0,1)",Sleep is Restless,0.629,41608,s5sleepr,elsa
+duration of insomnia in months,Initial insomnia,0.628,884,Insomnia_duration,ample
+"r6sleepr:w6 r cesd: sleep was restless (0,1)",Sleep is Restless,0.628,41602,r6sleepr,elsa
+"s6sleepr:w6 s cesd: sleep was restless (0,1)",Sleep is Restless,0.628,41609,s6sleepr,elsa
+q56e last mth- disturbed sleep (s11),Stress disturbed my sleep in past 7D,0.627,84694,FSLPDIST,whitehall
+q56a last mth- trouble falling asleep (s,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.627,85614,JSLPFALL,whitehall
+q57e last mth- disturbed sleep (s12),Stress disturbed my sleep in past 7D,0.622,84815,DSLPDIST,whitehall
+o-respondent fell asleep,Asleep,0.62,9927,v300_a0,cfas
+o-respondent fell asleep,Asleep,0.62,10360,v300_a2,cfas
+waking up early in the morning,"Trouble Sleeping, Waking Up in the Middle of the Night or Early Morning",0.619,36702,v208_w1,cfasii
+waking up early in the morning,"Trouble Sleeping, Waking Up in the Middle of the Night or Early Morning",0.619,37408,v191_w2,cfasii
+waking up early in the morning,"Trouble Sleeping, Waking Up in the Middle of the Night or Early Morning",0.619,36702,v208_w1,cfasii
+waking up early in the morning,"Trouble Sleeping, Waking Up in the Middle of the Night or Early Morning",0.619,37408,v191_w2,cfasii
+psqi: sleep latency,Sleep latency test,0.618,84271,psqilaten14x,mrc
+margaret vignette: difficulty in sleeping in last 30 days,Difficulty sleeping,0.617,63467,shwake3,elsa
+"much of the time during the past week, has your sleep been restless?",My sleep was restless in past 7D,0.615,51736,pscedc,elsa
+q26d suffer menop sleep disturbance? (s4),Sleep disturbances,0.614,85136,VSYMSLP,whitehall
+nightmares comments,"Nightmares, REM-sleep type",0.607,862,Night_Comm,ample
+q57a last mth- trouble falling asleep (s12),"Trouble falling or staying asleep, or sleeping too much in last 2W",0.607,84816,DSLPFALL,whitehall
+q29d suffer menop sleep disturbance? (s3),Sleep disturbances,0.605,85048,XSYMSLP,whitehall
+"during the time when you felt sad or depressed for at least 2 weeks, did you: have more trouble falling asleep than you usually do, or sleeping too much? (fu4)","Trouble falling or staying asleep, or sleeping too much in last 2W",0.604,82761,SAD_SLEEP_FU4,epic
+q56a last mth- trouble falling asleep (s11),"Trouble falling or staying asleep, or sleeping too much in last 2W",0.604,84695,FSLPFALL,whitehall
+"types of trouble with sleep. if 2 types noted, code both, eg trouble 1 'difficulty getting to sleep' and 2 'waking up in the night' = 12",Have a Lot of Trouble Getting to Sleep,0.603,84291,sprob77,mrc
+"in the last 30 days, how much difficulty have you had with sleeping, such as falling asleep, waking up frequently during the night or waking up too early in the morning","How many separate times in your life have you had difficulty getting to sleep, staying asleep or falling back to sleep after waking up during the night, for at least 1Mo",0.603,84440,Q54,nicola
+whether respondent felt their sleep was restless during the past week,My sleep was restless in past 7D,0.597,59485,PScedC,elsa
+q2.64a trouble falling asleep (s5),"Trouble falling or staying asleep, or sleeping too much in last 2W",0.597,85252,TSLPFALL,whitehall
+[c3 sleep disturbance q4] how loud have others said your snoring is? ,Sleep disturbances,0.595,3351,c3loudnesssnoring,caps
+[c3 sleep disturbance q4] how loud have others said your snoring is? ,Sleep disturbances,0.595,7157,T0481 C3 General health and sleep disturbance quests,caps
+[c3 sleep disturbance q11f] feelings of excessive sleepiness during the day? ,Sleep disturbances,0.593,3363,c3sleepinessduringday,caps
+[c3 sleep disturbance q11f] feelings of excessive sleepiness during the day? ,Sleep disturbances,0.593,7167,T0481 C3 General health and sleep disturbance quests,caps
+[c3 sleep disturbance q13a] how many hours of sleep do you usually get in a workday night?,Sleep disturbances,0.588,3368,c3hrsworkdaysleep,caps
+[c3 sleep disturbance q13a] how many hours of sleep do you usually get in a workday night?,Sleep disturbances,0.588,7151,T0481 C3 General health and sleep disturbance quests,caps
+npi total number sleep,Total Sleep Time,0.587,649,npisleepnumber,ample
+"on average, how many hours do you sleep in a 24 hour period? (fu2)",hours of sleep,0.585,82750,SLEEP_TIME_FU2,epic
+"on average, how many hours do you sleep in a 24 hour period? (fu3)",hours of sleep,0.583,82754,SLEEP_TIME_FU3,epic
+[c1 clinic interview q23c4c] personality: are you: have trouble sleeping or falling asleep ,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.579,2247,c1troublesleeping,caps
+[c1 clinic interview q23c4c] personality: are you: have trouble sleeping or falling asleep ,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.579,4892,T0425 C1 Interview and Physical exercise quest,caps
+npi frequency of sleep,NPI - Sleep and Nighttime Behavior Disorders Frequency,0.578,650,npisleepfreq,ample
+npi total (axb) sleep,Total Sleep Time,0.577,653,npisleeptot,ample
+troubled by vivid dreams?,"Trouble Sleeping, Having Bad Dreams",0.576,733,QSSLBD_Dreams,ample
+"during the past month, how many hours of actual sleep did you get at night? (this may be different than the number of hours you spend in bed)",Hours of Actual Sleep at Night,0.576,1634,SP4,camcan
+[c3 sleep disturbance q14] how often do you take a nap during the day or early evening? ,Sleep disturbances,0.574,3370,c3freqnapduringtheday,caps
+[c3 sleep disturbance q14] how often do you take a nap during the day or early evening? ,Sleep disturbances,0.574,7144,T0481 C3 General health and sleep disturbance quests,caps
+"nms-quest 0=symptom absent, 1=symptom present",sleep symptoms,0.574,84182,Nocturia,icicle
+"nms-quest 0=symptom absent, 1=symptom present",sleep symptoms,0.574,84208,Daytime sleepiness,icicle
+"nms-quest 0=symptom absent, 1=symptom present",sleep symptoms,0.574,84210,Insomnia,icicle
+"nms-quest 0=symptom absent, 1=symptom present",sleep symptoms,0.574,84222,Tendency to act out dreams?,icicle
+"nms-quest 0=symptom absent, 1=symptom present",sleep symptoms,0.574,84224,Dreams of being chased or attacked?,icicle
+s. wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,13923,v66_h2,cfas
+s. wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,16459,v66_h0,cfas
+s. wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,16754,v66_h1,cfas
+s. wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,18101,v66_h3,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,14268,v65_h6,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17092,v65_h12,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17427,v65_h14,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17762,v65_h16,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,18438,v65_h6,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,18762,v65_h8,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,19098,v65_hx,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,35903,v90_h1,cfasii
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,36236,v90_h2,cfasii
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,14268,v65_h6,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17092,v65_h12,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17427,v65_h14,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,17762,v65_h16,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,18438,v65_h6,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,18762,v65_h8,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,19098,v65_hx,cfas
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,35903,v90_h1,cfasii
+s wake early in morning?,Does your child wake up early in the morning and have difficulty going back to sleep,0.569,36236,v90_h2,cfasii
+type of sleep complaints,patient complaints: interrupted sleep,0.565,84283,slct,mrc
+[c3 sleep disturbance q11c] wake up repeatly during the night? ,Sleep disturbances,0.564,3360,c3wakerepeatedly,caps
+[c3 sleep disturbance q11c] wake up repeatly during the night? ,Sleep disturbances,0.564,7179,T0481 C3 General health and sleep disturbance quests,caps
+[c3 sleep disturbance q13b] how many hours of sleep do you usually get in a weekend or non-work night?,Sleep disturbances,0.564,3369,c3hrsweekendsleep,caps
+[c3 sleep disturbance q13b] how many hours of sleep do you usually get in a weekend or non-work night?,Sleep disturbances,0.564,7150,T0481 C3 General health and sleep disturbance quests,caps
+q31 hours of sleep on average week night (s1),Shortened sleep cycle (average 5.7 hours per night),0.562,84987,SLEEP,whitehall
+hypnotic prescribed?,Used medication for anxiety or sleep not as prescribed or not prescribed for you in past 3Mo,0.561,1012,Hypnotic,ample
+[c3 sleep disturbance q10] do you kick or make other disruptive movements during sleep? ,Sleep disturbances,0.561,3357,c3kickduringsleep,caps
+[c3 sleep disturbance q10] do you kick or make other disruptive movements during sleep? ,Sleep disturbances,0.561,7152,T0481 C3 General health and sleep disturbance quests,caps
+sleep disorders - troubled by vivid dreams,Sleep Disorders,0.56,855,SD_Vivid_Dream,ample
+"[c3 sleep disturbance q3] according to others, please estimate how often you snore? ",Sleep disturbances,0.56,3350,c3freqsnoring,caps
+"[c3 sleep disturbance q3] according to others, please estimate how often you snore? ",Sleep disturbances,0.56,7145,T0481 C3 General health and sleep disturbance quests,caps
+sleep: number of hours on average week night,Shortened sleep cycle (average 5.7 hours per night),0.559,66008,heslpe,elsa
+npi distress sleep,Stress disturbed my sleep in past 7D,0.558,652,npisleepdis,ample
+duration of nightmares in months,"Nightmares, REM-sleep type",0.557,860,Night_duration_months,ample
+...you got much less sleep than usual and found you didnt really miss it?,I didn't sleep as well as I usually sleep,0.555,83700,mdqa4,genscot
+q73c cannot stay asleep in last 4 wks (s7),Cannot sleep at all,0.555,85358,MSLPSTAY,whitehall
+[c3 sleep disturbance q11e] restless legs or borthersome twiches? ,legs feel restless disturbing sleep,0.553,3362,c3bothersometwitches,caps
+[c3 sleep disturbance q11e] restless legs or borthersome twiches? ,legs feel restless disturbing sleep,0.553,7123,T0481 C3 General health and sleep disturbance quests,caps
+symptoms at the time of menopause: difficulty in sleeping (women only) (fu3),Has your difficulty with sleeping occurred or worsened during menopause,0.551,82757,SLEEP_PROBS_FU3,epic
+troubled by nightmares,"Nightmares, REM-sleep type",0.55,735,QSSLBD_Nightmare,ample
+q57a sleep- nap during day (s11),During sleep,0.55,84698,FSLPNAP,whitehall
+nightmares or disturbed sleep during past year (asked at 11 years),Stress disturbed my sleep in past 7D,0.549,84265,nig5657,mrc
+q58a sleep- nap during day (s12),During sleep,0.548,84819,DSLPNAP,whitehall
+q73c last mth- cannot stay asleep (s8),Cannot sleep at all,0.547,85503,KSLPSTAY,whitehall
+q3.8d menopausal sleep disturb (s5),Menopause Plus Sleep KIT,0.545,85255,TSYMSLP,whitehall
+duration of increased sleepiness in months,Duration of sleep,0.544,922,Inc_Sleep_Comm,ample
+what time did you go to sleep yesteday? hours,hours of sleep,0.543,76918,sctsyh,elsa
+number of sleep complaints,patient complaints: interrupted sleep,0.543,84281,slcn,mrc
+over the last year have you had trouble with waking up and not being able to get back to sleep?,I have no trouble sleeping.,0.541,84275,pswak89,mrc
+"a024 sleep problems - 1=absent, 2=present,",Absent REM sleep,0.537,1238,A024Sleep problems,brace
+q56c last mth- cannot stay asleep (s9),Cannot sleep at all,0.536,85612,JSLPSTAY,whitehall
+duration of sleeping: wkendsleep*2 wkdaysleep*5; (epaq 2hc),Sleep,0.533,82762,DURSLEEP_2HC,epic
+q36d suffer menopausal sleep disturbance (s1),Sleep disturbances,0.533,84992,SYMSLP,whitehall
+q61 breathing pauses during sleep (s9),"Pediatric home monitoring of breathing pauses during sleep, including breathing and heart rate, physician review and interpretation, 30-day time period",0.533,85609,JSLBRPAU,whitehall
+who answered memory/sleep section?,Sleep Answer,0.532,19858,v120a_s2,cfas
+derived sleep duration [difference between sleep and wake times] (hours),between dinner and the hour of sleep,0.532,84285,sldurat14x,mrc
+npi severity of sleep,Usual Severity Difficulty Sleeping,0.53,651,npisleepsev,ample
+rate sleep interrupted during the night most nights for at least two weeks,Sleep during the night in past 7D,0.53,36701,v207_w1,cfasii
+rate sleep interrupted during the night most nights for at least two weeks,Sleep during the night in past 7D,0.53,37407,v190_w2,cfasii
+"during the past month, how often have you taken medicine (prescribed or “over the counter”) to help you sleep?",Take Medicine to Help Sleep,0.528,1647,SP17,camcan
+q2.64c cannot stay asleep (s5),Cannot sleep at all,0.527,85251,TSLPSTAY,whitehall
+duration of sleeping on weekday (epaq 3hc),sleep latency on weekdays,0.526,82766,DURSLEEPWKDAY_3HC,epic
+[c3 general health q3] have you recently been having restless disturbed nights? ,Distressed by Sleep that is Restless and Disturbed,0.525,3320,c3restlessdisturbednights,caps
+[c3 general health q3] have you recently been having restless disturbed nights? ,Distressed by Sleep that is Restless and Disturbed,0.525,7164,T0481 C3 General health and sleep disturbance quests,caps
+[c3 sleep disturbance] the unique number allocated to each subject in the study as recorded on card 9,Sleep disturbances,0.525,7132,T0481 C3 General health and sleep disturbance quests,caps
+q73c hours/day sleep (s3),hours of sleep,0.523,85123,XWKSLEEP,whitehall
+hypnotic dose/comments,sleep disorder; hypnotics,0.522,1013,Hypnotic_Dose_Comm,ample
+[c3 sleep disturbance q9] how often do you seem to have momentary periods in your sleep when you breath abnormally? ,Sleep disturbances,0.521,3356,c3sleepbreathupnormally,caps
+[c3 sleep disturbance q9] how often do you seem to have momentary periods in your sleep when you breath abnormally? ,Sleep disturbances,0.521,7165,T0481 C3 General health and sleep disturbance quests,caps
+duration of sleeping on weekday (epaq 2hc),sleep latency on weekdays,0.52,82763,DURSLEEPWKDAY_2HC,epic
+"[c3 sleep disturbance q7] according to others how often do you gasp, choke or make snorting sounds during sleep? ",Sleep disturbances,0.519,3354,c3gaspduringsleep,caps
+"[c3 sleep disturbance q7] according to others how often do you gasp, choke or make snorting sounds during sleep? ",Sleep disturbances,0.519,7146,T0481 C3 General health and sleep disturbance quests,caps
+average daily sleep time (hours) during the week,During sleep,0.517,1577,EPAQ_001,camcan
+bh203f_hours - amount of sleep - hours :,hours of sleep,0.516,84355,BH203f_hours,nicola
+following traumatic event has been bothered by difficulty falling or staying asleep,Have Difficulty Getting to Sleep and Staying Asleep,0.515,17,F_188,airwave
+insomnia most of the night and sleeps mainly during the day,Sleeps during day,0.515,36698,v204_w1,cfasii
+insomnia most of the night and sleeps mainly during the day,Sleeps during day,0.515,37404,v187_w2,cfasii
+duration of sleeping on weekend (epaq 3hc),Duration of sleep,0.515,82767,DURSLEEPWKEND_3HC,epic
+q57c last mth- cannot stay asleep (s12),Cannot sleep at all,0.515,84814,DSLPSTAY,whitehall
+[c3 sleep disturbance q12] approximately how many minutes does it usually take you to fall asleep at night?,Sleep disturbances,0.513,3367,c3timefallasleep,caps
+[c3 sleep disturbance q12] approximately how many minutes does it usually take you to fall asleep at night?,Sleep disturbances,0.513,7174,T0481 C3 General health and sleep disturbance quests,caps
+q56c last mth- cannot stay asleep (s11),Cannot sleep at all,0.513,84693,FSLPSTAY,whitehall
+q64 fallen asleep whilst driving (s9),Sleep driving,0.513,85610,JSLDRIVE,whitehall
+"during the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?","While resting, sleeping, eating or engaging in other vital activities",0.511,1648,SP18,camcan
+duration of sleeping on weekend (epaq 2hc),Duration of sleep,0.509,82764,DURSLEEPWKEND_2HC,epic
+bh203e - do you take any medication (over the counter or prescribed) to help you sleep?,Used medication for anxiety or sleep not as prescribed or not prescribed for you in past 3Mo,0.508,84354,BH203e,nicola
+[c1 clinic interview q23c2g] personality: are you: do you have great difficulty in falling or staying asleep? ,Have Difficulty Getting to Sleep and Staying Asleep,0.506,2237,c1sleeping,caps
+[c1 clinic interview q23c2g] personality: are you: do you have great difficulty in falling or staying asleep? ,Have Difficulty Getting to Sleep and Staying Asleep,0.506,4877,T0425 C1 Interview and Physical exercise quest,caps
+[c3 sleep disturbance] date of birth of the subject in format dd/mm/yyyy from card 9,Sleep disturbances,0.506,7130,T0481 C3 General health and sleep disturbance quests,caps
+proxy answered eating habits and sleep sections?,Sleep Answer,0.506,36709,v215_w1,cfasii
+proxy answered eating habits and sleep sections?,Sleep Answer,0.506,37415,v198_w2,cfasii
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,10855,v362_c12,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,11441,v362_c14,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,12025,v362_c16,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,12631,v362_c2,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,13144,v362_c6,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,13698,v362_c8,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,14931,v362_cx,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,15773,v362_f1,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,16267,v362_f3,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,20485,v362_s6,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,21036,v362_w8,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,37133,v639_w1,cfasii
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,37829,v612_w2,cfasii
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,10855,v362_c12,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,11441,v362_c14,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,12025,v362_c16,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,12631,v362_c2,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,13144,v362_c6,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,13698,v362_c8,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,14931,v362_cx,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,15773,v362_f1,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,16267,v362_f3,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,20485,v362_s6,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,21036,v362_w8,cfas
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,37133,v639_w1,cfasii
+obs - generally sleepy,At what time do you usually go to sleep - feel sleepy and ready to go to bed,0.505,37829,v612_w2,cfasii
+"[c3 sleep disturbance q5] based on what others have told you, for about how many years do you think you have snored?",Sleep disturbances,0.501,3352,c3yrssnoring,caps
+"[c3 sleep disturbance q5] based on what others have told you, for about how many years do you think you have snored?",Sleep disturbances,0.501,7182,T0481 C3 General health and sleep disturbance quests,caps
+lost sleep over worry,Sleep loss,0.501,47320,ghqsleep,elsa
+[c3 sleep disturbance] original text version of date of birth of the subject in format ddmmyy from card 9,PROMIS short form - sleep disturbance - 8b - version 1.0,0.5,7133,T0481 C3 General health and sleep disturbance quests,caps
+do you generally sleep well? (fu2),I didn't sleep as well as I usually sleep,0.5,82749,SLEEP_WELL_FU2,epic
+sleep been disturbed by itching or scratching,Stress disturbed my sleep in past 7D,0.498,47177,slesk,elsa
+sleep disorders - transient loss of consciousness,Sleep Disorders,0.497,879,SD_TLOC,ample
+do you generally sleep well? (fu3),I didn't sleep as well as I usually sleep,0.497,82753,SLEEP_WELL_FU3,epic
+[c2 home & work environment q21] how many months a year do you sleep with your bedroom window open? ,Environmental Sleep Disorder,0.495,2797,c2homesleephours,caps
+[c2 home & work environment q21] how many months a year do you sleep with your bedroom window open? ,Environmental Sleep Disorder,0.495,6210,T0459 C2 Home and Work Environment and Noise levels quests,caps
+[c2 home & work environment q29] does traffic noise wake you up? ,Environmental Sleep Disorder,0.493,2805,c2wakeupduenoise,caps
+[c2 home & work environment q29] does traffic noise wake you up? ,Environmental Sleep Disorder,0.493,6231,T0459 C2 Home and Work Environment and Noise levels quests,caps
+"[c3 sleep disturbance q11g] nasal congestion, obstruction, or discharge at night? ",Sleep disturbances,0.491,3364,c3nasalcongestion,caps
+"[c3 sleep disturbance q11g] nasal congestion, obstruction, or discharge at night? ",Sleep disturbances,0.491,7158,T0481 C3 General health and sleep disturbance quests,caps
+q54 recent lost much sleep? (s2),Sleep loss,0.491,85014,ZGHQ02,whitehall
+"during the past month, how long (in minutes) has it usually taken you to fall asleep each night?",Sleep during the night in past 7D,0.489,1632,SP2,camcan
+developed any sleeping problems?,Problem with Sleep,0.487,19855,v117_s2,cfas
+[c3 sleep disturbance q15] do you have any allergies like hay fever that cause congestion? ,Sleep disturbances,0.486,3371,c3allergiescausingnasalcongestio,caps
+[c3 sleep disturbance q15] do you have any allergies like hay fever that cause congestion? ,Sleep disturbances,0.486,7119,T0481 C3 General health and sleep disturbance quests,caps
+bh203c - how often in the past month did you have trouble staying asleep (including waking far too early)?,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.484,84352,BH203c,nicola
+[c3 sleep disturbance q11i] need for coffee or other stimulants to stay awake during the day? ,Sleep disturbances,0.482,3366,c3stimulantstostayawake,caps
+[c3 sleep disturbance q11i] need for coffee or other stimulants to stay awake during the day? ,Sleep disturbances,0.482,7169,T0481 C3 General health and sleep disturbance quests,caps
+insomnia requiring treatment (fu2),Initial insomnia,0.48,82745,INSOMNIA_FU2,epic
+total minutes sleep daily,Total Sleep Time,0.478,84496,TotalMinutesSleepDaily,nicola
+q25 lost sleep by worry (s9),Sleep loss,0.478,85675,JGHQ02,whitehall
+[c5 self completion quest q45] how often do you kick or make other disruptive movements during sleep? ,Disrupted sleep,0.476,4546,c5q45kicking,caps
+[c5 self completion quest q45] how often do you kick or make other disruptive movements during sleep? ,Disrupted sleep,0.476,8830,T0532 C5 Self completion quest part2,caps
+sleep: frequency wake up several times at night,NPI - Sleep and Nighttime Behavior Disorders Frequency,0.476,66006,heslpb,elsa
+lost much sleep over worry?,Sleep loss,0.476,83655,b1,genscot
+lost much sleep over worry,Sleep loss,0.476,84426,Q25,nicola
+"[c3 sleep disturbance q11h] fall asleep or doze momentarily: watching tv, reading, in meetings etc? ",Sleep disturbances,0.475,3365,c3dozemomentarily,caps
+"[c3 sleep disturbance q11h] fall asleep or doze momentarily: watching tv, reading, in meetings etc? ",Sleep disturbances,0.475,7139,T0481 C3 General health and sleep disturbance quests,caps
+q58 snoring description (s9),Use Sedative or Sleeping Medication Not as Prescribed or Without a Prescription,0.473,85617,JSNORHOW,whitehall
+[c3 sleep disturbance q6] how often(if ever) have you had the feeling or awareness that you have been snoring? ,Sleep disturbances,0.472,3353,c3awarenesssnoring,caps
+[c3 sleep disturbance q6] how often(if ever) have you had the feeling or awareness that you have been snoring? ,Sleep disturbances,0.472,7120,T0481 C3 General health and sleep disturbance quests,caps
+other: insomnia requiring treatment (fu3),Initial insomnia,0.47,82747,INSOMNIA_FU3,epic
+q42 lost sleep by worry (s8),Sleep loss,0.47,85542,KGHQ02,whitehall
+[c3 general health q8] have you recently been satisfied with the way you’ve carried out your task? ,I was satisfied with my sleep in past 7D,0.469,3325,c3tasksatisfaction,caps
+[c3 general health q8] have you recently been satisfied with the way you’ve carried out your task? ,I was satisfied with my sleep in past 7D,0.469,7173,T0481 C3 General health and sleep disturbance quests,caps
+q72 hours sleep on avg wk-night (s8),hours of sleep,0.469,85502,KSLEEP,whitehall
+average daily sleep time (hours) during the weekend,During sleep,0.466,1578,EPAQ_002,camcan
+time respondent went to sleep yesterday (hours),hours of sleep,0.466,82561,sctsyh,elsa
+sleep hr (beats/min) [value used for step test analysis],Sleep Paralysis,0.466,84235,actstshr0610,mrc
+s. restless/wakeful at night?,wakefulness and sleep,0.465,13922,v65_h2,cfas
+s. restless/wakeful at night?,wakefulness and sleep,0.465,16458,v65_h0,cfas
+s. restless/wakeful at night?,wakefulness and sleep,0.465,16753,v65_h1,cfas
+s. restless/wakeful at night?,wakefulness and sleep,0.465,18100,v65_h3,cfas
+[c2 home & work environment q28] does traffic noise make it difficult for you to fall asleep? ,Environmental Sleep Disorder,0.464,2804,c2sleepdifficult,caps
+[c2 home & work environment q28] does traffic noise make it difficult for you to fall asleep? ,Environmental Sleep Disorder,0.464,6225,T0459 C2 Home and Work Environment and Noise levels quests,caps
+q55 hours sleep on avg wk-night (s9),hours of sleep,0.463,85611,JSLEEP,whitehall
+q57c sleep - length of nap during day (s11),During sleep,0.458,84700,FSLPNAPL,whitehall
+amount of sleep usually enjoyed over a 24 hour period,Amount of sleep,0.457,14,F_089,airwave
+q58c sleep - length of nap during day (s12),During sleep,0.457,84821,DSLPNAPL,whitehall
+psqi: needs medications to sleep,taking medication to help sleep,0.456,84272,psqimeds14x,mrc
+acting out dreams ever,"How often do you remember your dreams - that is, dreams that occur during your regular sleep and not while napping",0.455,869,Acting_Ever,ample
+q72 week-night average hours of sleep (s7),Shortened sleep cycle (average 5.7 hours per night),0.454,85357,MSLEEP,whitehall
+[c3 sleep disturbance q8] how often have you wakened suddenly with the feeling of gasping or choking? ,Sleep disturbances,0.453,3355,c3wakegasping,caps
+[c3 sleep disturbance q8] how often have you wakened suddenly with the feeling of gasping or choking? ,Sleep disturbances,0.453,7178,T0481 C3 General health and sleep disturbance quests,caps
+does child sleep in room alone or with others?,Does your child usually sleep with the mouth open,0.45,84279,sla6,mrc
+ghq: lost sleep over worry,Sleep loss,0.446,45586,ghqsleep,elsa
+q23 lost sleep by worry (s11),Sleep loss,0.446,84738,FGHQ02,whitehall
+q56 hours sleep on avg wk-night (s12),hours of sleep,0.444,84813,DSLEEP,whitehall
+q23 lost sleep by worry (s12),Sleep loss,0.444,84868,DGHQ02,whitehall
+vivid dreams comments,involuntary movements during sleep with vivid dream recall,0.443,858,Vivid_Comm,ample
+taken anything to help sleep?,Take Medicine to Help Sleep,0.443,9697,v85_a0,cfas
+taken anything to help sleep?,Take Medicine to Help Sleep,0.443,10131,v85_a2,cfas
+in the winter do you usually sleep with your bedroom windows open?,Does your child usually sleep with the mouth open,0.443,84236,bedw71,mrc
+[c5 self completion quest q47] how many hours of sleep do you usually get each night?,How many H and Ms of sleep do you usually get when you take a nap,0.442,4548,c5q47hoursofsleep,caps
+[c5 self completion quest q47] how many hours of sleep do you usually get each night?,How many H and Ms of sleep do you usually get when you take a nap,0.442,8832,T0532 C5 Self completion quest part2,caps
+do you normally take a nap during the day? (fu2),Do you normally work or attend school during the D and sleep at night,0.442,82751,NAP_FU2,epic
+i often have ideas running through my head so that i cannot sleep,Cannot sleep at all,0.442,84262,mp19,mrc
+q55 hours sleep on avg wk-night (s11),hours of sleep,0.442,84692,FSLEEP,whitehall
+do you normally take a nap during the day? (fu3),Do you normally work or attend school during the D and sleep at night,0.44,82755,NAP_FU3,epic
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,10600,v114_c12,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,11186,v114_c14,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,11770,v114_c16,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,12362,v114_c2,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,12868,v114_c6,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,13407,v114_c8,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,14641,v114_cx,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,15504,v114_f1,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,15998,v114_f3,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,20189,v114_s6,cfas
+taken anything to help you sleep?,Take Medicine to Help Sleep,0.437,20781,v114_w8,cfas
+nms-quest symptom duration in months,sleep symptoms,0.436,84183,Nocturia Duration,icicle
+nms-quest symptom duration in months,sleep symptoms,0.436,84209,Daytime sleepiness duration,icicle
+nms-quest symptom duration in months,sleep symptoms,0.436,84211,Insomnia duration,icicle
+insomnia requiring treatment: first date (year) (fu2),Initial insomnia,0.434,82746,INSOMNIA_YEAR_FU2,epic
+q81 recently lost much sleep (s1),Sleep loss,0.433,84947,GHQ02,whitehall
+bh203d - how often in the past month did you wake up after your usual amount of sleep feeling tired and worn out?,How often do you feel tired or fatigued after your sleep,0.432,84353,BH203d,nicola
+q57b sleep - frecuency nap during day (s11),During sleep,0.431,84699,FSLPNAPF,whitehall
+q58b sleep - frecuency nap during day (s12),During sleep,0.429,84820,DSLPNAPF,whitehall
+ghq: lost much sleep over worry,Sleep loss,0.428,84252,ghq0809,mrc
+q88 recently lost much sleep? (s3),Sleep loss,0.428,85058,XGHQ02,whitehall
+nightmares or disturbed sleep during past year (asked at 6 years) number of times any member of household has gone to child,Stress disturbed my sleep in past 7D,0.427,84264,nig5152,mrc
+wake up early?,Early sleep onset,0.426,9702,v90_a0,cfas
+wake up early?,Early sleep onset,0.426,10136,v90_a2,cfas
+vivid dreams ever,involuntary movements during sleep with vivid dream recall,0.425,857,Vivid_Ever,ample
+x17sleepdis,Sleep-Disordered Breathing,0.424,86358,X17SleepDis,smc
+bh201 - how likely are you to doze off or fall asleep during the day?,"When you do doze off during the D and take a nap, do you find this sleep refreshing",0.422,84349,bh201,nicola
+bh203 - how often in the past month have you had trouble with waking up too early and not being able to fall asleep again?,"Trouble falling or staying asleep, or sleeping too much in last 2W",0.42,84350,bh203,nicola
+[c2 psychosocial quest noise q2] i am easily awakened by noise ,Ringing or Other Noises Did Not Wake Me From Sleep,0.417,3045,c2easilyawakened,caps
+[c2 psychosocial quest noise q2] i am easily awakened by noise ,Ringing or Other Noises Did Not Wake Me From Sleep,0.417,5883,T0454 C2 Psychosocial questionnaires,caps
+what time did you go to sleep yesteday? am or pm,Total Sleep Time,0.416,76920,sctsyp,elsa
+[c5 self completion quest q42] how often do you gasp or choke during sleep? ,During sleep,0.415,4543,c5q42gaspingorchoking,caps
+[c5 self completion quest q42] how often do you gasp or choke during sleep? ,During sleep,0.415,8827,T0532 C5 Self completion quest part2,caps
+q23 recently lost sleep by worry (s6),Sleep loss,0.415,85289,QGHQ02,whitehall
+reactions to new medications - increased sleepiness,Concern About Your Use of Sedative or Sleeping Medication,0.413,921,RTNM_Inc_Sleep,ample
+time respondent went to sleep yesterday (minutes),sleep response test,0.413,82562,sctsym,elsa
+[c5 self completion quest q39] how loud is your snoring? ,"Trouble Sleeping, Cough or Snoring Loudly",0.412,4540,c5q39loudnessofsnoring,caps
+[c5 self completion quest q39] how loud is your snoring? ,"Trouble Sleeping, Cough or Snoring Loudly",0.412,8824,T0532 C5 Self completion quest part2,caps
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,11066,v167_c12,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,11652,v167_c14,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,12236,v167_c16,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,12415,v167_c2,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,12921,v167_c6,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,13460,v167_c8,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,14694,v167_cx,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,15557,v167_f1,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,16051,v167_f3,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,20242,v167_s6,cfas
+when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.412,21212,v167_w8,cfas
+bh203f_minutes - amount of sleep - minutes :,Mean sleep latency is less than 5 to 8 minutes,0.412,84356,BH203f_minutes,nicola
+[c3 general health q22] have you recently been feeling unhappy and depressed? ,I have been so unhappy that I have had difficulty sleeping in the past 7D,0.409,3339,c3depressed,caps
+[c3 general health q22] have you recently been feeling unhappy and depressed? ,I have been so unhappy that I have had difficulty sleeping in the past 7D,0.409,7136,T0481 C3 General health and sleep disturbance quests,caps
+[c5 self completion quest q50] do you take sleeping tablets? ,Trouble Sleeping (question),0.409,4551,c5q50sleepingtablets,caps
+[c5 self completion quest q50] do you take sleeping tablets? ,Trouble Sleeping (question),0.409,8835,T0532 C5 Self completion quest part2,caps
+what time did you go to sleep yesteday? minutes,Mean sleep latency is less than 5 to 8 minutes,0.408,76919,sctsym,elsa
+[c2 psychosocial quest noise q9] i get angry with people who make noise that keeps me awake or doing work ,Ringing or Other Noises Did Not Wake Me From Sleep,0.406,3052,c2angrywithnoisypeople,caps
+[c2 psychosocial quest noise q9] i get angry with people who make noise that keeps me awake or doing work ,Ringing or Other Noises Did Not Wake Me From Sleep,0.406,5875,T0454 C2 Psychosocial questionnaires,caps
+[c5 self completion quest q44] how often do you have momentary periods during sleep when you stop breathing or breath abnormally? ,Sleep-related breathing test,0.406,4545,c5q44stopbreathing,caps
+[c5 self completion quest q44] how often do you have momentary periods during sleep when you stop breathing or breath abnormally? ,Sleep-related breathing test,0.406,8829,T0532 C5 Self completion quest part2,caps
+sleep: frequency wake up feeling tired & worn out,"Trouble falling or staying asleep, or sleeping too much in last 2W.frequency",0.406,66007,heslpd,elsa
+ sleep: frequency wake up feeling tired & worn out,"Trouble falling or staying asleep, or sleeping too much in last 2W.frequency",0.406,72706,heslpd,elsa
+acting out dreams comments,"How often do you remember your dreams - that is, dreams that occur during your regular sleep and not while napping",0.405,870,Acting_Comm,ample
+duration of acting out dreams in months,"How often do you remember your dreams - that is, dreams that occur during your regular sleep and not while napping",0.401,868,Acting_duration,ample
+have you taken anything to help you sleep?,Take Medicine to Help Sleep,0.401,36696,v202_w1,cfasii
+have you taken anything to help you sleep?,Take Medicine to Help Sleep,0.401,37402,v185_w2,cfasii
+epworth sleepiness scale total,Sleeping out,0.399,84065,EPWORTH_SS_total,icicle
+duration of vivid dreams in months,involuntary movements during sleep with vivid dream recall,0.397,856,Vivid_duration_months,ample
+self reported insomnia requiring treatment (1hc hlqs),Initial insomnia,0.393,82743,INSOMNIA_1HC,epic
+"time spent sedentary, excluding sleep [hrs/d]","Study of sleep patterns, including sleep time",0.392,1611,EPAQ_035,camcan
+minutes sleep per night on average (derived from question a5e ) (hleq2),Sleep Question,0.392,82758,SLEEPTIME_HLEQ2,epic
+ph308 - does your arthritis make it difficult for you to sleep at night?,Difficulty sleeping,0.39,84306,PH308,nicola
+does child sleep in room by himself or with others?,Does your child usually sleep with the mouth open,0.389,84278,sla4,mrc
+have you recently lost much sleep over worry?,Sleep loss,0.386,51818,scghqb,elsa
+have you recently lost much sleep over worry?,Sleep loss,0.386,84253,ghq0899,mrc
+q42 recently lost sleep due to worry (s7),Sleep loss,0.386,85424,MGHQ02,whitehall
+dcfs how much of the day does the patient sleep,Sleep monitoring of patient in sleep lab,0.385,704,DCFS_Sleep,ample
+sleep hr (beats/min),Sleep,0.385,84234,actshr0610,mrc
+[c2 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,2667,c2lostmuchsleep,caps
+[c2 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,6172,T0458 C2 General health and Health attitude quests,caps
+[c3 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,3319,c3lostmuchsleep,caps
+[c3 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,7156,T0481 C3 General health and sleep disturbance quests,caps
+[c4 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,3964,c4lostmuchsleep,caps
+[c4 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,8209,T0505 C4 General health quest,caps
+[c5 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,4292,c5lostmuchsleep,caps
+[c5 general health q2] have you recently lost much sleep over worry? ,Healthy Sleep,0.382,8675,T0525 C5 GHQ and HADS,caps
+[c5 self completion quest q51f] how likely are you to fall asleep sitting talking to someone? ,Sleep Talking,0.378,4557,c5q51fsittingtalking,caps
+[c5 self completion quest q51f] how likely are you to fall asleep sitting talking to someone? ,Sleep Talking,0.378,8841,T0532 C5 Self completion quest part2,caps
+whether recently lost much sleep over worry,Sleep loss,0.378,63393,scghqb,elsa
+duration of sleep after assigning median to extreme values(epaq2_3hc),REM sleep duration,0.376,82765,DURSLEEP_3HC,epic
+[c5 self completion quest q46] approximately how many minutes does it usually take you to fall asleep?,How many H and Ms of sleep do you usually get when you take a nap,0.374,4547,c5q46minutestosleep,caps
+[c5 self completion quest q46] approximately how many minutes does it usually take you to fall asleep?,How many H and Ms of sleep do you usually get when you take a nap,0.374,8831,T0532 C5 Self completion quest part2,caps
+was it when you were wide awake?,"Pet Sleeps More, Is Awake Less",0.374,36751,v257_w1,cfasii
+was it when you were wide awake?,"Pet Sleeps More, Is Awake Less",0.374,37457,v240_w2,cfasii
+[c5 self completion quest q41] how often have you had the feeling of awareness that you have been snoring? ,"In the last 12Mo, have you been awakened from sleep by shortness of breath or a feeling of tightness in your chest",0.371,4542,c5q41awarenessofsnoring,caps
+[c5 self completion quest q41] how often have you had the feeling of awareness that you have been snoring? ,"In the last 12Mo, have you been awakened from sleep by shortness of breath or a feeling of tightness in your chest",0.371,8826,T0532 C5 Self completion quest part2,caps
+sleep: frequency doze off/nap in morning or afternoon,"When you do doze off during the D and take a nap, do you find this sleep refreshing",0.368,72707,heslpx,elsa
+q2.34 recently lost sleep by worry (s5),Sleep loss,0.368,85183,TGHQ02,whitehall
+cortisol awakening response (only if interval le 45 min),cough causes awakening from sleep,0.367,40417,cortcar,elsa
+epworth sleepiness scale score at visit x,Sleeping out,0.366,1935,Epworth Sleepiness Scale (X),campaign
+q73b increased alc: get to sleep (s11),Decreased need for sleep,0.366,84706,FALCINC4,whitehall
+q101k cesd q11- sleep (s9),Sleep,0.356,85664,JDPN11,whitehall
+[c5 self completion quest q51g] how likely are you to fall asleep sitting quietly after lunch without alcohol? ,ALCOHOL USE FOR SLEEP,0.353,4558,c5q51gafterlunch,caps
+[c5 self completion quest q51g] how likely are you to fall asleep sitting quietly after lunch without alcohol? ,ALCOHOL USE FOR SLEEP,0.353,8842,T0532 C5 Self completion quest part2,caps
+[c3 lifestyle quest q11c] does traffic noise ever wake you up? ,mismatch of sleep-wake schedule with lifestyle needs,0.351,3431,c3wakeuptrafficnoise,caps
+[c3 lifestyle quest q11c] does traffic noise ever wake you up? ,mismatch of sleep-wake schedule with lifestyle needs,0.351,7020,T0478 C3 Lifestyle  and Health attitude quests,caps
+time respondent went to sleep yesterday (am/pm),When I was in pain I went to sleep in past 7D,0.351,82563,sctsyp,elsa
+q2.63 hrs sleep on avg week night (s5),Light sleep,0.35,85175,TSLEEP,whitehall
+vision when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.349,9769,v157_a0,cfas
+vision when you are wide awake?,"Pet Sleeps More, Is Awake Less",0.349,10203,v157_a2,cfas
+how frequently did you wake up with a full erection during the past month?,Frequently Have Trouble Getting to Sleep,0.344,75179,q20m,elsa
+kind of trouble with sleep (summary code) - values 26-56 are all multiple punched but exact responses not known,Multiple sleep latency test,0.337,84260,ktws62,mrc
+[c3 general health q5] have you recently been getting out of the house as much as usual? ,Frequently Have Trouble Getting to Sleep,0.336,3322,c3outdoors,caps
+[c3 general health q5] have you recently been getting out of the house as much as usual? ,Frequently Have Trouble Getting to Sleep,0.336,7160,T0481 C3 General health and sleep disturbance quests,caps
+[c5 self completion quest q51b] how likely are you to fall asleep watching tv? ,Asleep,0.333,4553,c5q51bwatchingtv,caps
+[c5 self completion quest q51b] how likely are you to fall asleep watching tv? ,Asleep,0.333,8837,T0532 C5 Self completion quest part2,caps
+derived: time respondent went to sleep yesterday - 24 hour clock,When I was in pain I went to sleep in past 7D,0.327,75086,scsytime,elsa
+[c5 self completion quest q51a] how likely are you to fall asleep sitting and reading? ,Can only sleep sitting up,0.325,4552,c5q51asittingandreading,caps
+[c5 self completion quest q51a] how likely are you to fall asleep sitting and reading? ,Can only sleep sitting up,0.325,8836,T0532 C5 Self completion quest part2,caps
+[c5 self completion quest q51d] how likely are you to fall asleep as a passenger in a car? ,Asleep,0.325,4555,c5q51dpassengerinacar,caps
+[c5 self completion quest q51d] how likely are you to fall asleep as a passenger in a car? ,Asleep,0.325,8839,T0532 C5 Self completion quest part2,caps
+what wakes you up?,Wake After Sleep Onset,0.318,9704,v92_a0,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,10138,v92_a2,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,10605,v121_c12,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,11191,v121_c14,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,11775,v121_c16,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,12369,v121_c2,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,12875,v121_c6,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,13414,v121_c8,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,14648,v121_cx,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,15511,v121_f1,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,16005,v121_f3,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,20196,v121_s6,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,20786,v121_w8,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,36704,v210_w1,cfasii
+what wakes you up?,Wake After Sleep Onset,0.318,37410,v193_w2,cfasii
+what wakes you up?,Wake After Sleep Onset,0.318,9704,v92_a0,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,10138,v92_a2,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,10605,v121_c12,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,11191,v121_c14,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,11775,v121_c16,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,12369,v121_c2,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,12875,v121_c6,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,13414,v121_c8,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,14648,v121_cx,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,15511,v121_f1,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,16005,v121_f3,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,20196,v121_s6,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,20786,v121_w8,cfas
+what wakes you up?,Wake After Sleep Onset,0.318,36704,v210_w1,cfasii
+what wakes you up?,Wake After Sleep Onset,0.318,37410,v193_w2,cfasii
+self-reported age first diagnosed for insomnia (requiring treatment)(1hc hlqs),Initial insomnia,0.316,82744,INSOMNIA_AGE_1HC,epic
+[c5 self completion quest q51c] how likely are you to fall asleep in a theatre or meeting? ,Asleep,0.315,4554,c5q51ctheatreormeeting,caps
+[c5 self completion quest q51c] how likely are you to fall asleep in a theatre or meeting? ,Asleep,0.315,8838,T0532 C5 Self completion quest part2,caps
+post-c19: ghq12- whether lost much sleep over worry,sleep posture,0.313,84250,cw1_ghq122,mrc
+post-c19: ghq12- whether lost much sleep over worry,sleep posture,0.313,84251,cw2_ghq122,mrc
+[c5 self completion quest q51h] how likely are you to fall asleep in a car stopped at traffic lights? ,Light sleep,0.308,4559,c5q51htrafficlights,caps
+[c5 self completion quest q51h] how likely are you to fall asleep in a car stopped at traffic lights? ,Light sleep,0.308,8843,T0532 C5 Self completion quest part2,caps
+[c5 self completion quest q51e] how likely are you to fall asleep lying down to rest in the afternoon? ,Sleep Question,0.3,4556,c5q51elyingdown,caps
+[c5 self completion quest q51e] how likely are you to fall asleep lying down to rest in the afternoon? ,Sleep Question,0.3,8840,T0532 C5 Self completion quest part2,caps
+[c5 self completion quest q43] how often have you wakened suddenly with the feeling of gasping  or choking? ,"parental concerns: child used to sleep through night, suddenly started waking up",0.296,4544,c5q43wokengaspingorchoking,caps
+[c5 self completion quest q43] how often have you wakened suddenly with the feeling of gasping  or choking? ,"parental concerns: child used to sleep through night, suddenly started waking up",0.296,8828,T0532 C5 Self completion quest part2,caps
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,11041,v120_c12,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,11627,v120_c14,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,12211,v120_c16,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,12368,v120_c2,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,12874,v120_c6,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,13413,v120_c8,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,14647,v120_cx,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,15510,v120_f1,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,16004,v120_f3,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,20195,v120_s6,cfas
+rating: wakes early by 2 hrs,Does your child wake up early in the morning and have difficulty going back to sleep,0.296,21187,v120_w8,cfas
+[c3 general health q1] have you recently been able to concentrate on whatever you’re doing? ,Have you ever been concerned about your childs breathing during sleep,0.295,3318,c3abletoconcentrate,caps
+[c3 general health q1] have you recently been able to concentrate on whatever you’re doing? ,Have you ever been concerned about your childs breathing during sleep,0.295,7118,T0481 C3 General health and sleep disturbance quests,caps
+[c5 self completion quest q48] how often do you take a nap during the day or early evening? ,"When you do doze off during the D and take a nap, do you find this sleep refreshing",0.286,4549,c5q48nap,caps
+[c5 self completion quest q48] how often do you take a nap during the day or early evening? ,"When you do doze off during the D and take a nap, do you find this sleep refreshing",0.286,8833,T0532 C5 Self completion quest part2,caps
+what time did you wake up yesterday? minutes,Mean sleep latency is less than 5 to 8 minutes,0.281,76916,sctwum,elsa
+what time did you wake up yesterday? hours,Thinking about your recent sleep pattern: I wake up at the same time,0.276,76915,sctwuh,elsa
+what time did you wake up yesterday? am or pm,Thinking about your recent sleep pattern: I wake up at the same time,0.265,76917,sctwap,elsa
+following traumatic event has been bothered by upsetting dreams,Have you ever had frequent problems getting to sleep at the beginning of the night which has negatively affected how you function during the following day,0.262,145,F_184,airwave
+bh203b - how often in the past month did you wake up several times per night?,How much of the time has pain made it hard for you to sleep at night over the past 5D,0.241,84351,BH203b,nicola
+q73b wake up several times in last 4 wks (s7),lower back pain after sleeping on back several hours,0.218,85362,MSLPWAKS,whitehall
+q73b last mth- wake several times (s8),lower back pain after sleeping on back several hours,0.215,85507,KSLPWAKS,whitehall
+q56b last mth- wake several times (s9),lower back pain after sleeping on back several hours,0.212,85616,JSLPWAKS,whitehall
+q2.64b wake several times (s5),lower back pain after sleeping on back several hours,0.21,85254,TSLPWAKS,whitehall
+q57b last mth- wake several times (s12),lower back pain after sleeping on back several hours,0.203,84818,DSLPWAKS,whitehall
+q73d wake as usual but tired in last 4 wks (s7),"I wake up at least once a night, but I go back to sleep easily",0.203,85361,MSLPWAKT,whitehall
+q56b last mth- wake several times (s11),lower back pain after sleeping on back several hours,0.202,84697,FSLPWAKS,whitehall
+q73d last mth- wake as usual but tired (s8),"I wake up at least once a night, but I go back to sleep easily",0.199,85506,KSLPWAKT,whitehall
+q56d last mth- wake as usual but tired (,"I wake up at least once a night, but I go back to sleep easily",0.196,85615,JSLPWAKT,whitehall
+q56d last mth- wake as usual but tired (s11),"I wake up at least once a night, but I go back to sleep easily",0.187,84696,FSLPWAKT,whitehall
+q57d last mth- wake as usual but tired (s12),"I wake up at least once a night, but I go back to sleep easily",0.187,84817,DSLPWAKT,whitehall
+q2.64d wake as usual but tired (s5),Wake After Sleep Onset,0.18,85253,TSLPWAKT,whitehall

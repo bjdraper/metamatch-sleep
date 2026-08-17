@@ -1,0 +1,17 @@
+Category Type,Set,Keywords
+Sleep Difficulty,topic,"trouble, difficulty, disturbance, interruption, restless, disturbed, has difficulty in sleeping, sleep difficulties, difficulty falling asleep"
+Sleep Duration,topic,"duration, hours of sleep, time, length, hrs, hours, mins, minutes, total minutes sleep, sleep duration"
+Daytime Sleepiness,topic,"daytime sleepiness, fatigue, drowsy, tired, alertness, Epworth Sleepiness Scale, sleepiness during the day, daytime drowsiness"
+Sleep Quality,topic,"quality, restful, refreshing, satisfied, overall, PSQI, rating sleep quality, sleep quality"
+Sleep Environment,topic,"environment, noise, light, bedding, comfort, sleep environment"
+Sleep Disorders,topic,"insomnia, apnea, syndrome, disorder, sleep disorders, sleep apnea, restless legs syndrome"
+Mental Health and Sleep,topic,"anxiety, depression, stress, mental health, mental health and sleep, anxiety affecting sleep"
+Physical Health and Sleep,topic,"pain, chronic illness, physical health, disease, physical health and sleep, pain affecting sleep"
+Sleep Medications and Aids,topic,"medication, aid, pill, melatonin, treatment, sleeping pills, sleep aids"
+Sleep Satisfaction,topic,"satisfaction, expectation, contentment, satisfied with sleep, sleep satisfaction"
+Alcohol Related,topic,"alcohol, drinking, drink, beer, wine, liquor, alcohol consumption, alcohol before bed"
+Dreams,topic,"dream, dreams, nightmare, nightmares, REM, dreaming, night terrors"
+PSQI,instrument,PSQI
+CESD,instrument,CESD
+GHQ,instrument,GHQ
+Epworth Sleepiness Scale,instrument,Epworth

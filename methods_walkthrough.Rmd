@@ -1,0 +1,270 @@
+---
+title: "METAMATCH-Sleep: methods walkthrough"
+subtitle: "Leveraging NLP to Identify Domain-Specific Variables in Large-Scale Cohort Metadata"
+author: "Ben J Draper"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+    theme: flatly
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, message = FALSE, warning = FALSE,
+  fig.width = 9, fig.height = 6, dpi = 120
+)
+```
+
+This document walks through the analysis end to end and knits to a single HTML
+page. It is a narrative companion to the scripts in `analysis/`, not a
+replacement for them — each section points at the script that does the work, and
+that script is where the detailed rationale lives.
+
+Run it with `rmarkdown::render("methods_walkthrough.Rmd")`.
+
+```{r libraries}
+source(here::here("R", "setup.R"))
+```
+
+---
+
+# 1. The problem
+
+Cohort studies describe the same construct in wildly different words. Finding
+every sleep variable across 20 studies means reading 86,681 variable
+descriptions, which nobody does by hand.
+
+The difficulty is not just volume, it is that volume is unevenly distributed and
+unrelated to study size.
+
+```{r cohort-landscape}
+cohorts <- read_csv(file.path(PATH_RAW, "cohort_summary.csv"), show_col_types = FALSE) %>%
+  mutate(cohort = recode_cohorts(cohort), Estimated_N = as.numeric(Estimated_N)) %>%
+  arrange(desc(n_vars))
+
+cohorts %>%
+  summarise(
+    cohorts       = n(),
+    variables     = sum(n_vars),
+    participants  = sum(Estimated_N),
+    median_vars   = median(n_vars),
+    smallest      = min(n_vars),
+    largest       = max(n_vars)
+  ) %>%
+  knitr::kable(format.args = list(big.mark = ","))
+```
+
+Variable counts span three orders of magnitude — CamPaIGN documents 32, ELSA
+documents 44,826 — and the correlation with population size is weak. Metadata
+volume reflects documentation practice, not study size, so sleep variables
+cannot be found by looking only at the large cohorts.
+
+**Figure 1** — `analysis/02_fig1_cohort_landscape.R`
+
+---
+
+# 2. Retrieval: the SLEEPTALKING corpus and TF-IDF
+
+A reference dictionary of 2,032 sleep terms was pulled from the UMLS
+Metathesaurus in June 2022, starting from CUI `C0037313` ("Sleep").
+
+```{r corpus}
+umls <- read_csv(file.path(PATH_REFERENCE, "sleeptalking_corpus.csv"), show_col_types = FALSE)
+tibble(terms = nrow(umls), unique_names = n_distinct(umls$name)) %>% knitr::kable()
+head(umls$name, 8)
+```
+
+Every variable description was scored against every UMLS term using character
+n-gram TF-IDF and cosine similarity, keeping the best match per description.
+
+Why TF-IDF rather than exact matching? Because exact matching finds almost
+nothing:
+
+```{r why-not-exact}
+sleep_dic <- read_dpuk_csv(file.path(PATH_INTERIM, "sleep_dic_man.csv"))
+
+sleep_dic %>%
+  filter(Similarity < 0.999) %>%
+  arrange(desc(Similarity)) %>%
+  select(`DPUK description` = From, `UMLS term` = To, Similarity) %>%
+  slice(c(1:3, 200:202, 500:502)) %>%
+  knitr::kable(digits = 3)
+```
+
+These pairs share meaning while sharing very little literal text. TF-IDF over
+n-grams tolerates the abbreviation and punctuation differences; exact matching
+would reject all of them.
+
+**Threshold.** Matches at cosine ≥ 0.5 were kept and then read individually.
+The cut is deliberately permissive, favouring recall and letting the expert
+reject false positives.
+
+```{r similarity-summary}
+sleep_dic %>%
+  summarise(matches = n(), min = min(Similarity), mean = mean(Similarity), max = max(Similarity)) %>%
+  knitr::kable(digits = 3)
+```
+
+**Figure 2** — `analysis/01_tfidf_umls_match.R`, `analysis/03_fig2_similarity_duplication.R`
+
+## 2a. How good were the matches?
+
+This is the number the paper's conclusion rests on.
+
+```{r umls-qc}
+qc <- read_excel(file.path(PATH_CURATED, "sleep_vars_umls_qc_manual.xlsx")) %>%
+  filter(bjd_UMLS_QC %in% c("YES", "NO"))
+
+qc %>%
+  count(`UMLS assignment correct?` = bjd_UMLS_QC) %>%
+  mutate(`%` = round(100 * n / sum(n))) %>%
+  knitr::kable()
+```
+
+**Fewer than half.** A high cosine score is not the same as a correct match, and
+no threshold fixes that — it is a limitation of lexical similarity, not of the
+cut-off. This is the evidence for keeping an expert in the pipeline.
+
+---
+
+# 3. Semantic representation: BERT [CLS] embeddings
+
+TF-IDF matches shared vocabulary; it cannot tell that *"trouble getting off to
+sleep"* and *"difficulty initiating sleep"* mean the same thing. Each cleaned
+description was therefore embedded with `bert-base-uncased`, taking the `[CLS]`
+token as a whole-sentence summary.
+
+> **Note.** The preprint states MiniLM-L6-v2. The code uses `bert-base-uncased`,
+> and the 768-dimensional embedding files confirm it. See `REPRODUCIBILITY.md`.
+
+```{r embeddings}
+sleep_emb <- read_cls_embeddings(file.path(PATH_INTERIM, "cls_embeddings_sleep754.csv"))
+assert_aligned(sleep_emb, sleep_dic, "sleep dictionary")
+
+tibble(
+  rows       = nrow(sleep_emb),
+  dimensions = ncol(sleep_emb) - 1
+) %>% knitr::kable()
+```
+
+Cleaning collapses many descriptions onto identical strings, which produce
+bit-identical embeddings. Deduplicating on the embedding vector — the
+representation the clustering actually sees — gives the 337 figure quoted
+throughout the paper.
+
+```{r dedup}
+sleep_unique <- distinct_embeddings(sleep_emb)
+```
+
+---
+
+# 4. Projection: what structures the space?
+
+```{r tsne, fig.height = 5}
+set.seed(SEED_TSNE_LOCAL)
+tsne <- Rtsne(embedding_matrix(sleep_unique), dims = 2, perplexity = 30,
+              max_iter = 1000, verbose = FALSE)
+
+PROMINENT <- c("CaPS", "CFAS", "CamCAN", "ELSA", "Whitehall", "AMPLE", "MRC")
+
+sleep_dic$session_id <- as.character(seq_len(nrow(sleep_dic)))
+
+layout <- tibble(tsne_1 = tsne$Y[, 1], tsne_2 = tsne$Y[, 2],
+                 session_id = sleep_unique$session_id) %>%
+  left_join(sleep_dic, by = "session_id") %>%
+  mutate(cohort = recode_cohorts(cohort),
+         cohort = if_else(cohort %in% PROMINENT, cohort, "other"),
+         n_words = str_count(From, "\\S+"))
+
+ggplot(layout, aes(tsne_1, tsne_2, colour = cohort)) +
+  geom_point(size = 2) +
+  scale_colour_manual(values = COHORT_COLOURS) +
+  labs(title = "Sleep definitions coloured by cohort",
+       x = "Dimension 1", y = "Dimension 2") +
+  theme_minimal()
+```
+
+The paper's main negative result is visible here: definitions group by **cohort**
+rather than by sleep construct. Cohort house style dominates semantic content.
+
+The second driver is description length — an artefact of using untuned `[CLS]`
+vectors, whose magnitude tracks token count:
+
+```{r length-effect, fig.height = 4.5}
+ggplot(layout, aes(tsne_1, tsne_2, colour = n_words)) +
+  geom_point(size = 2) +
+  scale_colour_viridis_c(name = "Words in\ndescription", option = "magma", direction = -1) +
+  labs(title = "The same projection, coloured by description length",
+       x = "Dimension 1", y = "Dimension 2") +
+  theme_minimal()
+```
+
+**Figure 3** — `analysis/04_fig3_tsne.R`
+
+---
+
+# 5. Clustering vs expert consensus
+
+The unsupervised route (UMAP → HDBSCAN) and the expert route (keyword seeding →
+consensus review) were run on the same 374 full-sentence definitions so they
+could be compared.
+
+```{r categories}
+counts <- read_csv(file.path(PATH_CURATED, "consensus_category_count.csv"), show_col_types = FALSE)
+
+counts %>% arrange(desc(Count)) %>% knitr::kable()
+```
+
+```{r category-plot, fig.height = 5}
+category_colours <- c(rep("#440099", 4), UOS_SEQUENCE)
+names(category_colours) <- counts %>% arrange(Count) %>% pull(Category)
+
+ggplot(counts, aes(Count, reorder(Category, Count), fill = Category)) +
+  geom_col() +
+  scale_fill_manual(values = category_colours) +
+  labs(title = "Expert consensus categories",
+       x = "Number of sleep variables", y = NULL) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+The three commonest categories — Sleep Difficulty, Sleep Latency & Waking, Sleep
+Duration — are the constructs a harmonisation effort would target first.
+
+The unsupervised clusters are coarser and partly artefactual by comparison: one
+is HDBSCAN's noise group (proxy-respondent and undefined items) and another is
+defined largely by description length. Two caveats on that panel are important
+enough to repeat here:
+
+- Clustering runs on the **category-expanded** frame, so multi-label definitions
+  are weighted more heavily. Panel 4a is not purely unsupervised.
+- Its UMAP layout depends on RNG state left by a preceding t-SNE call, so exact
+  cluster sizes are not reproducible across package versions.
+
+Both are documented in `REPRODUCIBILITY.md`; `analysis/05_fig4_clusters_categories.R`
+detects when it has not reproduced the published clustering and withholds the
+expert cluster names rather than applying them to a different result.
+
+**Figure 4** — `analysis/05_fig4_clusters_categories.R`
+
+---
+
+# 6. Conclusion
+
+NLP reduced 86,681 variable descriptions to 337 semantically unique sleep
+variables — a search a researcher can actually complete. But fewer than half the
+automated UMLS assignments were correct, the embedding space is organised by
+cohort and sentence length rather than by sleep construct, and the unsupervised
+clusters needed human interpretation to mean anything.
+
+The method is a powerful filter, not a replacement for domain expertise. Where
+each stage could be strengthened for a version 2 is set out in
+[`docs/methods_v2_2026.html`](docs/methods_v2_2026.html).
+
+```{r session-info}
+sessionInfo()
+```

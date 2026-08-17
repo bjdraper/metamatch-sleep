@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "METAMATCH-Sleep: NLP retrieval of domain-specific variables from cohort metadata"
+abstract: >-
+  Code and curated data for a semi-automatic method (METAMATCH) that retrieves
+  variables about a given health topic from the metadata of many cohort studies,
+  demonstrated on sleep across 20 Dementias Platform UK cohorts.
+type: software
+license: MIT
+repository-code: "https://github.com/draperb7/metamatch-sleep"
+keywords:
+  - natural language processing
+  - metadata harmonisation
+  - cohort studies
+  - sleep
+  - UMLS
+  - BERT
+authors:
+  - family-names: Draper
+    given-names: Ben
+    affiliation: "Department of Chemical, Materials & Biological Engineering, University of Sheffield"
+  - family-names: Briggs
+    given-names: Penelope
+    affiliation: "Surrey Sleep Research Centre, University of Surrey"
+  - family-names: Purcell
+    given-names: Shaun
+    affiliation: "Department of Psychiatry, Brigham & Women's Hospital, Harvard Medical School"
+  - family-names: Dijk
+    given-names: Derk-Jan
+    affiliation: "Surrey Sleep Research Centre, University of Surrey; UK DRI Care Research & Technology Centre"
+  - family-names: Bauermeister
+    given-names: Sarah
+    affiliation: "Department of Psychiatry, University of Oxford"
+  - family-names: Bartsch
+    given-names: Ullrich
+    affiliation: "Surrey Sleep Research Centre, University of Surrey; Department of Psychiatry, University of Oxford"
+preferred-citation:
+  type: article
+  title: "Leveraging NLP to Identify Domain-Specific Variables in Large-Scale Cohort Metadata: A Sleep Use Case"
+  doi: "10.64898/2026.01.18.26344317"
+  journal: "medRxiv"
+  year: 2026
+  month: 1
+  authors:
+    - family-names: Draper
+      given-names: Ben
+    - family-names: Briggs
+      given-names: Penelope
+    - family-names: Purcell
+      given-names: Shaun
+    - family-names: Dijk
+      given-names: Derk-Jan
+    - family-names: Bauermeister
+      given-names: Sarah
+    - family-names: Bartsch
+      given-names: Ullrich
